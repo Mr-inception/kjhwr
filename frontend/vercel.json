@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "https://kjhwr-liart.vercel.app/api/:path*" }
+  ]
+}
