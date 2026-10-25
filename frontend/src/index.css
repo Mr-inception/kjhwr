@@ -1,0 +1,31 @@
+:root { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; color: #111827; background: #f6f7f9; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.page { max-width: 1100px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { margin: 0 0 4px; font-size: 1.6rem; }
+.sub { margin: 0 0 20px; color: #4b5563; }
+.controls { display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: end; margin-bottom: 20px; }
+.controls label { display: flex; flex-direction: column; gap: 4px; font-size: 0.8rem; color: #4b5563; }
+.controls label.check { flex-direction: row; align-items: center; gap: 6px; font-size: 0.9rem; color: #111827; }
+.date-row { display: flex; gap: 4px; }
+select, button { font: inherit; padding: 6px 10px; border: 1px solid #d1d5db; border-radius: 6px; background: #fff; }
+button { cursor: pointer; }
+button:disabled { opacity: 0.4; cursor: default; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin-bottom: 20px; }
+.kpi { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 12px 14px; }
+.kpi-label { font-size: 0.75rem; color: #6b7280; }
+.kpi-value { font-size: 1.3rem; font-weight: 600; margin: 2px 0; }
+.kpi-hint { font-size: 0.72rem; color: #6b7280; }
+.card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 16px; }
+.notes { margin-top: 16px; font-size: 0.85rem; color: #374151; line-height: 1.5; }
+.error { background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; padding: 10px 12px; border-radius: 8px; margin-bottom: 16px; }
+.muted { color: #6b7280; }
+.tabs { display: flex; gap: 8px; margin-bottom: 20px; }
+.tabs button.active { background: #2563eb; color: #fff; border-color: #2563eb; }
+.card { margin-bottom: 16px; }
+.card h3 { margin: 0 0 4px; font-size: 1rem; }
+.small { font-size: 0.8rem; margin: 0 0 12px; line-height: 1.5; }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.85rem; }
+th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid #e5e7eb; white-space: nowrap; }
+th { color: #6b7280; font-weight: 500; }
